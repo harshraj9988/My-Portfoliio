@@ -3,7 +3,7 @@ import './components/About/Qualifications.css'
 
 const Qualifications = () => {
   return (
-    <div>Qualifications</div>
+    <div className="Qualifications">Qualifications</div>
   )
 }
 

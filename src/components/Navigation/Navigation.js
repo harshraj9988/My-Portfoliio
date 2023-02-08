@@ -3,7 +3,7 @@ import './components/About/Navigation.css'
 
 const Navigation = () => {
   return (
-    <div>Navigation</div>
+    <div className="Navigation">Navigation</div>
   )
 }
 

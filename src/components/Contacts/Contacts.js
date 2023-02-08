@@ -3,7 +3,7 @@ import './components/About/Contacts.css'
 
 const Contacts = () => {
   return (
-    <div>Contacts</div>
+    <div className="Contacts">Contacts</div>
   )
 }
 
