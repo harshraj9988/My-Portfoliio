@@ -1,9 +1,9 @@
-import React from 'react'
-import './components/About/Projects.css'
+import React from 'react';
+import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className="Projects">Projects</div>
+    <div id="projects" className="Projects">Projects</div>
   )
 }
 

@@ -1,7 +1,97 @@
 .Home {
-    display: block;
-    height: 100vh;
+    height: 48.5vw;
     width: 80vw;
     padding-top: 5vw;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Info-avatar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 37.5vw;
+}
+
+.Basic-info-Wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.Basic-Info {
+    width: fit-content;
+    margin-bottom: 2.11vw;
+}
+
+.Info-title {
+    font-size: 4.8vw;
+    font-weight: bold;
+    margin: 0 0 1.34vw 0;
+}
+
+.Info-profession {
+    display: flex;
+    font-size: 1.46vw;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 0.3vw;
+}
+
+.Info-profession > span {
+    display: flex;
+    border: 1px solid #4a4a4a;
+    height: 0.1vw;
+    width: 6vw;
+    border-radius: 0.1vw;
+    background-color: #4a4a4a;
+
+}
+
+.Info-detail {
+    font-size: 1.29vw;
+    margin-bottom: 5vw;
+}
+
+.Button-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.Button-wrapper > a {
+    text-decoration: none;
+
+}
+
+.Button-wrapper > a > button {
+    width: 14.63vw;
+    height: 3.79vw;
+    background-color: black;
+    color: white;
+    border-radius: 1.03vw;
+    font-size: 1.46vw;
+    padding: 0.76vw 2.30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Button-wrapper > a > button > img {
+    width: 2.06vw;
+}
+
+.Scroll-down {
+    display: flex;
+    align-items: center;
+    font-size: 1.132vw;
+}
+
+.Scroll-down > img {
+    padding-left: 0.5vw;
+    width: 1.369vw;
+    height: 1.369vw;
 }

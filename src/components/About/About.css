@@ -1,7 +1,94 @@
 .About {
     display: block;
-    height: 100vh;
+    height: 48.5vw;
     width: 80vw;
     padding-top: 5vw;
-    background-color: green;
+}
+
+.About-header {
+    margin: 0;
+    text-align: center;
+    font-size: 3.07vw;
+    transform: translateY(1vw);
+}
+
+.About-section {
+    display: flex;
+    width: 80vw;
+    height: 46.93vw;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-3.07vw) ;
+}
+
+.About-section > img {
+    width: 30.53vw;
+    height: 26.05vw;
+}
+
+.About-info {
+    width: 42.78vw;
+    height: 26.05vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.About-info > p {
+    font-size: 1.3vw;
+}
+
+.Experience {
+    border: 0.3vw solid #d4d4d4;
+    border-radius: 1vw;
+    height: 5vw;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Experience > img {
+    margin-left: 1vw;
+    width: 2.69vw;
+    height: 2.69vw;
+}
+
+.Experience-info {
+    margin:0vw 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Experience-title {
+    font-size: 1.133vw;
+    margin: 0;
+}
+
+.Experience-detail{
+    margin: 0;
+}
+
+.About-button-wrapper > a {
+    width: 19.63vw;
+    height: 3.79vw;
+    text-decoration: none;
+}
+
+.About-button-wrapper > a > button {
+    width: 19.63vw;
+    height: 3.79vw;
+    background-color: black;
+    color: white;
+    border-radius: 1.03vw;
+    font-size: 1.46vw;
+    padding: 0.76vw 2.30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About-button-wrapper > a > button > img {
+    width: 2.06vw;
 }

@@ -1,9 +1,9 @@
-import React from 'react'
-import './components/About/Qualifications.css'
+import React from 'react';
+import './Qualifications.css';
 
 const Qualifications = () => {
   return (
-    <div className="Qualifications">Qualifications</div>
+    <div id="qualifications" className="Qualifications">Qualifications</div>
   )
 }
 
