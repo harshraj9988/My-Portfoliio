@@ -18,7 +18,7 @@ const About = () => {
                             Experience
                           </p>
                           <p className="Experience-detail">
-                              1+ years of experience workin with android
+                              1+ years of experience working with android
                           </p>
                       </div>
                   </div>
